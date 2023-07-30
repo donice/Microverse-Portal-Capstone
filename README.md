@@ -100,7 +100,8 @@ To run tests, run the following command:
 
 ```sh
 npx hint .
-  npx stylelint "**/*.{css/scss}"
+npx stylelint "**/*.{css/scss}"
+npx eslint .
 ```
 <!-- AUTHORS -->
 
