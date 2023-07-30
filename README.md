@@ -67,6 +67,7 @@
 
 - **Linter for HTML**
 - **LInter for CSS**
+- **LInter for Javascript**
 
 <!-- GETTING STARTED -->
 
