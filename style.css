@@ -82,7 +82,7 @@ button:hover {
   color: #ff5438;
 }
 
-.home {
+#home {
   display: inline-flex;
   padding: 100px 14px;
   flex-direction: column;
@@ -132,7 +132,7 @@ button:hover {
   line-height: 15px;
 }
 
-.program {
+#program {
   display: flex;
   flex-direction: column;
   background-color: #201f1f;
@@ -193,6 +193,18 @@ button:hover {
 
 .program-btn {
   margin: 25px 0;
+}
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #201f1f; */
+  height: 662px;
+  padding: 11px 12px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: white;
 }
 
 .button-container {
