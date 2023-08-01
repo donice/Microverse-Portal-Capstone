@@ -1,178 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donice Conference</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Donice Conference</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-mobile hamburger">
+          <div class="bar"></div>
+        </div>
+        <a href="/" class="theme" id="logo">
+          <img src="./assets/shared/logo.svg" alt="logo" /> 
+          SoloDev
+        </a>
 
-<body>
-  <header>
-    <nav> <div class="nav-mobile hamburger">
-        <div class="bar"></div>
+        <ul class="nav-desktop">
+          <li><a href="#about">About</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#join">Join</a></li>
+          <li><a href="#sponsor">Sponsor</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#campaign" id="campaign">CC Campaign</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Mobile Navigations -->
+    <nav class="mobile-nav">
+      <div id="close">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+            fill="white"
+          />
+        </svg>
       </div>
-      <a href="/" class="theme" id="logo">My logo</a>
-     
-      <ul class="nav-desktop">
-        <li><a href="#about">About</a></li>
-        <li><a href="#program">Program</a></li>
-        <li><a href="#join">Join</a></li>
-        <li><a href="#sponsor">Sponsor</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#campaign"  id="campaign">CC Campaign</a></li>
+      <ul>
+        <li><a href="#about" class="nav-links">About</a></li>
+        <li><a href="#program" class="nav-links">Program</a></li>
+        <li><a href="#join" class="nav-links">Join</a></li>
+        <li><a href="#sponsor" class="nav-links">Sponsor</a></li>
+        <li><a href="#news" class="nav-links">News</a></li>
+        <li>
+          <a href="#campaign" class="nav-links" id="campaign">CC Campaign</a>
+        </li>
       </ul>
     </nav>
-  </header>
 
-  <!-- Mobile Navigations -->
-  <nav class="mobile-nav">
-    <div id="close">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-          d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
-          fill="white" />
-      </svg>
-    </div>
-    <ul>
-      <li><a href="#about" class="nav-links">About</a></li>
-      <li><a href="#program" class="nav-links">Program</a></li>
-      <li><a href="#join" class="nav-links">Join</a></li>
-      <li><a href="#sponsor" class="nav-links">Sponsor</a></li>
-      <li><a href="#news" class="nav-links">News</a></li>
-      <li><a href="#campaign" class="nav-links" id="campaign">CC Campaign</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section id="home">
-      <div class="home-header">
-        <h3 class="theme">"Hello! Coding world"</h3>
-        <h1 class="theme">
-          SOFTWARE DEVELOPERS
-          <br />
-          GLOBAL SUMMIT
-          <br />
-          2023
-        </h1>
-      </div>
-
-      <p class="home-paragraph">
-        A joyful celebration believing in the value of openness and sharing, creating a positive change with people from
-        over 80 countries is taking place in October, in Korea.
-      </p>
-      <div class="home-time">
-        <span>2023.08.03(THU) ~ 04(FRI)</span>
-        <p>@Tafawa Balewa Square, Lagos Island, Nigeria</p>
-      </div>
-
-    </section>
-
-    <section id="program">
-      <div class="program-header">
-        <h2>Main Program</h2>
-        <div class="program-underline"></div>
-      </div>
-
-      <div class="program-cards">
-        <div class="program-card">
-          <div class="program-card-image">
-            <img src="./assets/shared/icons/lecture.svg" alt="">
-            <span class="theme">Lecture</span>
-          </div>
-          <p>
-            Listen to the speakers from various countries about the messages of sharing and opening.
-          </p>
+    <main>
+      <section id="home">
+        <div class="home-header">
+          <h3 class="theme">"Hello! Coding world"</h3>
+          <h1 class="theme">
+            SOFTWARE DEVELOPERS
+            <br />
+            GLOBAL SUMMIT
+            <br />
+            2023
+          </h1>
         </div>
-        <div class="program-card">
-          <div class="program-card-image">
-            <img src="./assets/shared/icons/exhibition.svg" alt="">
-            <span class="theme">CC Exhibition</span>
-          </div>
-          <p>
-            Appreciate various creations applying CC license of artists, organized from Art Center Nabi
-        </div>
-        <div class="program-card">
-          <div class="program-card-image">
-            <img src="./assets/shared/icons/forum.svg" alt="">
-            <span class="theme">Forum</span>
-          </div>
-          <p>
-            Have the time to share your thoughts and opinions with experts for each topic.
-          </p>
-        </div>
-        <div class="program-card">
-          <div class="program-card-image">
-            <img src="./assets/shared/icons/workshop.svg" alt="">
-            <span class="theme">Wor</span>
-          </div>
-          <p>
-            Try creating your own work using open source license rather than just watching at it.
-          </p>
-        </div>
-        <div class="program-card">
-          <div class="program-card-image">
-            <img src="./assets/shared/icons/ignite.svg" alt="">
-            <span class="theme">Lecture</span>
-          </div>
-          <p>
-            Try creating your own work using open source license rather than just watching at it.
-          </p>
-        </div>
-      </div>
-      <button class="program-btn">
-        Join CG Global Summit 2023
-      </button>
-    </section>
 
-    <section id="feature">
-      <div class="feature-header">
-        <h2>Featured Speakers</h2>
-        <div class="feature-underline"></div>
-      </div>
-      <div class="feature-cards">
-        <div class="feature-card">
-          <img src="./assets/shared/features/speaker_01.svg" alt="" class="feature-card-image">
-          <div class="feature-info">
-            <h4>Yochai Benkler</h4>
-            <span class="theme">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</span>
-            <div class="feature-info-underline"></div>
+        <p class="home-paragraph">
+          A joyful celebration believing in the value of openness and sharing,
+          creating a positive change with people from over 80 countries is
+          taking place in October, in Korea.
+        </p>
+        <div class="home-time">
+          <span>2023.08.03(THU) ~ 04(FRI)</span>
+          <p>@Tafawa Balewa Square, Lagos Island, Nigeria</p>
+        </div>
+      </section>
+
+      <section id="program">
+        <div class="program-header">
+          <h2>Main Program</h2>
+          <div class="program-underline"></div>
+        </div>
+
+        <div class="program-cards">
+          <div class="program-card">
+            <div class="program-card-image">
+              <img src="./assets/shared/icons/lecture.svg" alt="" />
+              <span class="theme">Lecture</span>
+            </div>
             <p>
-              Listen to the speakers from various countries about the messages of sharing and opening.
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+          <div class="program-card">
+            <div class="program-card-image">
+              <img src="./assets/shared/icons/exhibition.svg" alt="" />
+              <span class="theme">CC Exhibition</span>
+            </div>
+            <p>
+              Appreciate various creations applying CC license of artists,
+              organized from Art Center Nabi
+            </p>
+          </div>
+
+          <div class="program-card">
+            <div class="program-card-image">
+              <img src="./assets/shared/icons/forum.svg" alt="" />
+              <span class="theme">Forum</span>
+            </div>
+            <p>
+              Have the time to share your thoughts and opinions with experts for
+              each topic.
+            </p>
+          </div>
+          <div class="program-card">
+            <div class="program-card-image">
+              <img src="./assets/shared/icons/workshop.svg" alt="" />
+              <span class="theme">Wor</span>
+            </div>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching at it.
+            </p>
+          </div>
+          <div class="program-card">
+            <div class="program-card-image">
+              <img src="./assets/shared/icons/ignite.svg" alt="" />
+              <span class="theme">Lecture</span>
+            </div>
+            <p>
+              Try creating your own work using open source license rather than
+              just watching at it.
             </p>
           </div>
         </div>
-        <div class="feature-card">
-          <img src="./assets/shared/features/speaker_02.svg" alt="" class="feature-card-image">
-          <div class="feature-info">
-            <h4>SohYeong Noh</h4>
-            <span class="theme">Director of Art Centre Nabi and a board member of CC Korea</span>
-            <div class="feature-info-underline"></div>
-            <p>
-              As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary
-            </p>
+        <button class="program-btn">Join CG Global Summit 2023</button>
+      </section>
+
+      <section id="feature">
+        <div class="feature-header">
+          <h2>Featured Speakers</h2>
+          <div class="feature-underline"></div>
+        </div>
+        <div class="feature-cards">
+          <div class="feature-card">
+            <img
+              src="./assets/shared/features/speaker_01.svg"
+              alt=""
+              class="feature-card-image"
+            />
+            <div class="feature-info">
+              <h4>Yochai Benkler</h4>
+              <span class="theme"
+                >Berkman Professor of Entrepreneurial Legal Studies at Harvard
+                Law School</span
+              >
+              <div class="feature-info-underline"></div>
+              <p>
+                Listen to the speakers from various countries about the messages
+                of sharing and opening.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <img
+              src="./assets/shared/features/speaker_02.svg"
+              alt=""
+              class="feature-card-image"
+            />
+            <div class="feature-info">
+              <h4>SohYeong Noh</h4>
+              <span class="theme"
+                >Director of Art Centre Nabi and a board member of CC
+                Korea</span
+              >
+              <div class="feature-info-underline"></div>
+              <p>
+                As the main venue for new media art production in Korea, Nabi
+                promotes cross-disciplinary
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <button class="feature-btn">
-        MORE
-        <img src="./assets/shared/icons/arrow_down.svg" alt="">
-      </button>
-    </section>
-  </main>
+        <button class="feature-btn">
+          MORE
+          <img src="./assets/shared/icons/arrow_down.svg" alt="" />
+        </button>
+      </section>
+    </main>
 
-  <script src="./main.js"></script>
-</body>
-
+    <script src="./main.js"></script>
+  </body>
 </html>
