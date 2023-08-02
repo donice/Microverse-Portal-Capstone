@@ -208,6 +208,85 @@ button:hover {
     padding: 10px 0;
 }
 
+#summit {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 537px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: white;
+    border: 2px solid rgb(229, 229, 229);
+    padding: 10px 0;
+}
+
+.summit-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 0;
+}
+
+.summit-header h2 {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    line-height: 29px;    
+}
+
+.summit-header p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #838383;
+    padding: 11px 12px;    
+}
+
+.summit-underline {
+    width: 40px;
+    border-top: 2px solid #ff5438;
+    margin-top: 1rem;
+}
+
+.summit-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.summit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.summit-card-topic {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#summit-cards-1 {
+    background-color: red;
+    margin: 12px;
+    height: 10rem;
+}
+
+#summit-cards-2 {
+    background-color: red;
+    margin: 12px;
+    height: 10rem;
+}
+
+.partner-header {
+    display: none
+}
+
+
 #partner {
     display: flex;
     flex-direction: column;
