@@ -143,9 +143,9 @@ function closePopup() {
   popupModal.style.display = "none";
 }
 
-function closePopup() {
-  popupContainer.style.display = "none";
-}
+// function closePopup() {
+//   popupContainer.style.display = "none";
+// }
 
 projectSection.addEventListener("click", (event) => {
   if (event.target.classList.contains("project-button")) {
