@@ -109,7 +109,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   border: 4px solid #fff;
-  background: #ffffff;
+  background: #fff;
   color: #515151;
   letter-spacing: -0.12px;
   line-height: 18px;
@@ -149,7 +149,7 @@ button:hover {
 #program {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fff;
   height: 317px;
   align-items: center;
   gap: 10px;
@@ -186,7 +186,10 @@ button:hover {
 }
 
 .partner-header {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 22px 0;
 }
 
 .program-logo {
@@ -211,7 +214,7 @@ button:hover {
 #summit {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fff;
   height: 537px;
   align-items: center;
   gap: 10px;
@@ -289,10 +292,6 @@ button:hover {
   background-image: url("./assets/shared/about/matthew-osborn-wMRIcT86SWU-unsplash.jpg");
 }
 
-.partner-header {
-  display: none;
-}
-
 #partner {
   display: flex;
   flex-direction: column;
@@ -306,13 +305,6 @@ button:hover {
 
 .partner-header h2 {
   font-size: 22px;
-}
-
-.partner-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 22px 0;
 }
 
 .partner-underline {
