@@ -194,11 +194,16 @@ button:hover {
 }
 
 .program-btn {
+  display: block;
   margin: 25px 0;
   border: 1px solid var(--primary-b-400, #ff5438);
   color: var(--primary-b-500, white);
   background-color: #ff5438;
   padding: 18px 32px;
+}
+
+.program-btn-desktop {
+  display: none;
 }
 
 #feature {
@@ -251,7 +256,7 @@ button:hover {
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.943px; 
+  line-height: 1.943px;
   letter-spacing: -0.2px;
 }
 
@@ -261,7 +266,7 @@ button:hover {
   font-size: 9px;
   font-style: normal;
   font-weight: 700;
-  line-height: 14px; 
+  line-height: 14px;
   letter-spacing: -0.54px;
 }
 
@@ -272,6 +277,7 @@ button:hover {
 }
 
 .feature-btn {
+  display: flex;
   margin: 25px 0;
   width: 100%;
   border: 1.5px solid var(--primary-b-400, #d2d2d2);
@@ -284,6 +290,10 @@ button:hover {
   padding: 13px 0;
   border-radius: 5px;
   box-shadow: 5px 1px 10px #dfdfdf;
+}
+
+.partner-header {
+  display: none
 }
 
 #logo {
@@ -445,7 +455,6 @@ button:hover {
   h1 {
     font-size: 50px;
     line-height: 55px;
-    margin-top: 15rem;
   }
 
   nav {
@@ -464,7 +473,7 @@ button:hover {
   }
 
   h3 {
-    font-size: 17px;
+    font-size: 27px;
     margin: 0.7rem 0 1rem 0;
   }
 
@@ -500,11 +509,170 @@ button:hover {
   #home {
     display: inline-flex;
     flex-direction: column;
-    padding: 2rem 15rem 2rem 14rem;
+    padding: 5rem 10rem 2rem 12rem;
     align-items: flex-start;
-    height: 45rem;
+    height: 35rem;
     background-image: url("./images/background-desktop.svg");
     background-position: center;
+  }
+
+  .home-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 75%;
+  }
+
+  .home-paragraph {
+    padding: 18px 17px;
+    font-size: 18px;
+  }
+
+  .home-time {
+    padding: 0 20px;
+  }
+
+  .home-time span {
+    font-size: 25px;
+  }
+
+  .home-time p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  #program {
+    display: flex;
+    flex-direction: column;
+    background-color: #201f1f;
+    height: 450px;
+    padding: 11px 12px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: white;
+  }
+
+  .program-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 0;
+  }
+
+  .program-header h2 {
+    font-size: 22px;
+    color: white;
+  }
+
+  .program-underline {
+    width: 45px;
+  }
+
+  .program-cards {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 0.3rem;
+    margin: 0 5px;
+    text-align: center;
+    width: 150px;
+  }
+
+  .program-card-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program-card-image span {
+    font-size: 15px;
+  }
+
+  .program-card p {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .program-btn {
+    display: none;
+  }
+
+  .program-btn-desktop {
+    display: block;
+    margin: 35px 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    padding: 10px 0;
+  }
+
+  #feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 11px 12px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .feature-underline {
+    width: 45px;
+  }
+
+  .feature-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+  }
+
+  .feature-card {
+    display: grid;
+    grid-template-columns: 35% 62%;
+  }
+
+  .feature-card-image {
+    width: 139px;
+  }
+
+  .feature-info span {
+    font-size: 13px;
+  }
+
+  .feature-info h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .feature-info p {
+    font-size: 11px;
+  }
+
+  .feature-btn {
+    display: none;
+  }
+
+  .partner-header h2 {
+    font-size: 22px;
+    color: black;
+  }
+
+  .partner-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 0;
   }
 
 }
