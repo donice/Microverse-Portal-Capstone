@@ -370,11 +370,6 @@ button:hover {
   font-weight: 700;
 }
 
-#logos img {
-  width: 30px;
-  margin-right: 0.4rem;
-}
-
 .footer-info {
   width: 50%;
 }
@@ -444,6 +439,11 @@ button:hover {
 #logo img {
   width: 18px;
   margin-right: 10px;
+}
+
+#logos img {
+  width: 30px;
+  margin-right: 0.4rem;
 }
 
 .dropdown-item span {
