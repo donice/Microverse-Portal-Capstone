@@ -397,11 +397,6 @@ button:hover {
   line-height: 20px;
 }
 
-#logo img {
-  width: 18px;
-  margin-right: 10px;
-}
-
 .dropdown {
   display: flex;
   padding: 16px 16px 16px 12px;
@@ -444,6 +439,11 @@ button:hover {
   border-radius: 48px;
   border: 1px solid var(--neutrals-n-0, #fff);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#logo img {
+  width: 18px;
+  margin-right: 10px;
 }
 
 .dropdown-item span {
