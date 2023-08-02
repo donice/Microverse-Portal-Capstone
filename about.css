@@ -299,7 +299,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     background-color: #3d3c3c;
-    height: 232px;
     padding: 11px 12px;
     align-items: center;
     gap: 10px;
