@@ -85,6 +85,10 @@ button:hover {
   color: #ff5438;
 }
 
+#theme {
+  color: #ff5438;
+}
+
 #home {
   display: flex;
   flex-direction: column;
@@ -93,6 +97,11 @@ button:hover {
   gap: 25px;
   height: 20rem;
   padding: 20px 14px 50px 14px;
+  background-color: white;
+  background-image: url("./assets/shared/mobile-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
 }
 
 .home-header {
@@ -543,10 +552,27 @@ button:hover {
   color: white;
 }
 
+#top-nav {
+  background-color: #201f1f;
+  height: 20px;
+  display: none;
+}
+
+#top-nav ul {
+  justify-content: flex-end;
+  display: none;
+  list-style: none;
+}
+
+.top-nav-link a {
+  font-size: 10px;
+  color: white;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 65px;
+    line-height: 65px;
   }
 
   nav {
@@ -591,7 +617,7 @@ button:hover {
   .nav-desktop li {
     list-style: none;
     font-size: 14px;
-    margin-right: 2rem;
+    margin-right: 3rem;
   }
 
   .nav-desktop a {
@@ -604,7 +630,7 @@ button:hover {
     padding: 3rem 8rem 2rem 8rem;
     align-items: center;
     height: 35rem;
-    background-image: url("./images/background-desktop.svg");
+    background-image: url("./assets/shared/mobile-bg.jpg");
     background-position: center;
   }
 
@@ -728,5 +754,30 @@ button:hover {
 
   .footer-info-2 {
     display: block;
+  }
+
+  #top-nav {
+    display: block;
+    background-color: #201f1f;
+    height: 20px;
+    padding: 10px 9rem 10px 10rem;
+  }
+
+  #top-nav ul {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .top-nav-link a {
+    font-size: 12px;
+    margin-left: 0.9rem;
+  }
+
+  .top-nav-img {
+    font-size: 12px;
+    margin-left: 0.9rem;
+    margin-bottom: -3px;
   }
 }
